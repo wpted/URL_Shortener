@@ -78,4 +78,21 @@ def insert_url(url: str) -> int:
     cursor = connection.cursor()
     insert_query = "INSERT INTO urls VALUES url=(?);"
     cursor.execute(insert_query, (url,))
+    connection.commit()
+    connection.close()
     return cursor.lastrowid  # Retrieve inserted id after inserting row
+
+
+def get_url_id(url: str) -> int:
+    """
+    Return the integer id corresponding to the provided long url
+    :param url: str
+    :return: int
+    """
+    connection = sqlite3.connect(DB_PATH)
+    cursor = connection.cursor()
+    query = "SELECT id FROM urls WHERE url=(?)"
+    data = cursor.execute(query, (url,))  # [id]
+    connection.close()
+
+    return data.fetchone()[0]
