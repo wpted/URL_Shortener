@@ -9,16 +9,6 @@ This is a simple project using Flask, sqlite3 and some basic HTML and CSS.
 
 Some lorem ipslum
 
-### Build status
-
-***
-Some lorem ipslum
-
-### Code Style
-
-***
-Some lorem ipslum
-
 ### Screenshots
 
 ***
@@ -34,16 +24,6 @@ Some lorem ipslum
 ***
 Some lorem ipslum
 
-### Code Examples
-
-***
-Some lorem isplum
-
-### Installation
-
-***
-
-Some lorem isplum
 
 ### Tests
 
@@ -53,8 +33,14 @@ Some lorem isplum
 ### Credits
 
 ***
-Some lorem isplum
+Nicholas Obert:
+https://betterprogramming.pub/how-url-shorteners-work-and-how-to-build-one-77352e12be95
 
 
+Xiaoxu Gao:
+https://towardsdatascience.com/from-novice-to-expert-how-to-write-a-configuration-file-in-python-273e171a8eb3
 
-
+python.org:
+https://docs.python.org/3/library/configparser.html
+https://docs.python.org/3/library/typing.html#typing.Union
+https://docs.python.org/3/library/urllib.parse.html
