@@ -5,11 +5,15 @@
     <title>URL Shortener</title>
 </head>
 <body>
-<h1>URL Shortener</h1>
-<form method="get">
-    <label>URL:</label>
-    <input type="url" placeholder="http://your.very.long.and.heideous.url">
-    <input type="submit">
-</form>
+    <h1>URL Shortener</h1>
+    <form method="get">
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="http://your.very.long.and.heideous.url">
+        <input type="submit" value="Shorten">
+    </form>
+    <br>
+    {% if url %}
+        <p>Shortened Url: <a href="{{ url }}">{{ url }}</a></p>
+    {% endif %}
 </body>
 </html>
