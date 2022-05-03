@@ -122,8 +122,6 @@ def short_url(url: str) -> str:
     else:
         id = insert_url(url)
 
-    print(id)
-
     return f"{base}?id={str(id)}"
 
 
@@ -145,7 +143,7 @@ def main():
     print(f"{test_url_3=}")
     print(f"{shorten_url_3=}")
 
-
+    print(get_url(5))
 
 
 if __name__ == "__main__":
