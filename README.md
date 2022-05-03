@@ -7,35 +7,20 @@ This is a simple project using Flask, sqlite3 and some basic HTML and CSS.
 
 ***
 
-Some lorem ipslum
-
-### Screenshots
-
-***
-Some lorem ipslum
+Takes user input and store it into a database for the user. Whilst accessing the shortened url, it directly interacts
+with users independent url database, hence redirect through providing the browser the original url.
 
 ### Tech/Framework used
 
-***
-Some lorem ipslum
+Flask~=2.1.2
 
-### Features
-
-***
-Some lorem ipslum
-
-
-### Tests
-
-***
-Some lorem isplum
+```Check the requirements.txt```
 
 ### Credits
 
 ***
 Nicholas Obert:
 https://betterprogramming.pub/how-url-shorteners-work-and-how-to-build-one-77352e12be95
-
 
 Xiaoxu Gao:
 https://towardsdatascience.com/from-novice-to-expert-how-to-write-a-configuration-file-in-python-273e171a8eb3
